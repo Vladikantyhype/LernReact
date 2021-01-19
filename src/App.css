@@ -1,31 +1,15 @@
 .app-wrapper{
   display: grid;
-margin: 0 auto;
+  margin: 0 auto;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
 
   grid-template-areas:
           "h h"
           "n c";
 width: 1200px;
 }
-.header{
-  grid-area: h;
-  background-color: black;
-  border: 3px solid darkgray;
-}
-.header img{
-  width: 40px;
-}
-.nav {
-  grid-area: n;
-  background-color: black;
-  color: aliceblue;
-  border: 3px solid darkgray;
-}
-.content{
-  grid-area: c;
-  background-color: darkgray;
-}
+
+
+
 
